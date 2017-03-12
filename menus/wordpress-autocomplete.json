@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle wordpress-autocomplete",
+        "command": "wordpress-autocomplete:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "WordPress Autocomplete",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "wordpress-autocomplete:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

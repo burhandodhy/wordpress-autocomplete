@@ -1,0 +1,21 @@
+{
+  "name": "wordpress-autocomplete",
+  "main": "./lib/wordpress-autocomplete",
+  "version": "1.0.0",
+  "description": "This is a collection of WordPress autocompletions for Atom.io",
+  "keywords": [
+    "php",
+    "wordpress",
+    "autocomplete"
+  ],
+  "activationCommands": {
+    "atom-workspace": "wordpress-autocomplete:toggle"
+  },
+  "repository": "https://github.com/burhandodhy/wordpress-autocomplete",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
