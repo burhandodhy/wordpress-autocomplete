@@ -1,10 +1,18 @@
 # WordPress AutoComplete
 ==================
 
+##### Gif Preview
+![wordpress-autocomplete](assets/gif.gif)
+
+
+##### Image Preview
+![wordpress-autocomplete](assets/image.jpg)
+
+
 This is a collection of WordPress  autocompletions for Atom.io
 
 - License: GNU/GPL
-- Version: 1.1.0
+- Version: 1.1.3
 - Extension URI: https://github.com/burhandodhy/wordpress-autocomplete
 
 ### Features
@@ -25,4 +33,5 @@ Alternatively, install through command-line:
 	apm install wordpress-autocomplete
 
 ### Changelogs
-- Version 1.0: Initial Start (Support all WordPress 4.7.3 function).
+- Version 1.1.3: Meta Update
+- Version 1.1: Initial Start (Support all WordPress 4.7.3 function).
