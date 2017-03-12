@@ -2,11 +2,11 @@
 ==================
 
 ##### Gif Preview
-![wordpress-autocomplete](assets/gif.gif)
+![wordpress-autocomplete](http://i.imgur.com/HFtXHwz.gif)
 
 
 ##### Image Preview
-![wordpress-autocomplete](assets/image.jpg)
+![wordpress-autocomplete](http://i.imgur.com/fa1SyA1.jpg)
 
 
 This is a collection of WordPress  autocompletions for Atom.io
