@@ -1,5 +1,5 @@
 {
-  "name": "wordpress-autocomplete",
+  "name": "1.0.1",
   "main": "./lib/wordpress-autocomplete",
   "version": "1.0.1",
   "description": "This is a collection of WordPress autocompletions for Atom.io",
