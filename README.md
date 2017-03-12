@@ -5,7 +5,7 @@ This is a collection of WordPress  autocompletions for Atom.io
 
 - License: GNU/GPL
 - Version: 1.0
-- Extension URI:
+- Extension URI: https://github.com/burhandodhy/wordpress-autocomplete
 
 ### Features
 
