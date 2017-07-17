@@ -1,8 +1,8 @@
 {
   "name": "wordpress-autocomplete",
   "main": "./lib/wordpress-autocomplete",
-  "version": "1.1.4",
-  "description": "This is a collection of WordPress autocompletions for Atom.io",
+  "version": "1.2",
+  "description": "Autocomplete support for WordPress functions.",
   "keywords": [
     "php",
     "wordpress",

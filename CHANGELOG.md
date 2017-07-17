@@ -1,3 +1,7 @@
+## 1.2
+* Support upto WordPress 4.8
+* Fix extra space issue
+
 ## 1.1.1
 * Meta Update
 

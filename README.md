@@ -9,19 +9,19 @@
 ![wordpress-autocomplete](http://i.imgur.com/fa1SyA1.jpg)
 
 
-This is a collection of WordPress  autocompletions for Atom.io
+Autocomplete support for WordPress functions.
 
 - License: GNU/GPL
-- Version: 1.1.3
+- Version: 1.2
 - Extension URI: https://github.com/burhandodhy/wordpress-autocomplete
 
 ### Features
 
 Autocomplete for:
 
-    WordPress version : 4.7.3
+    WordPress version : 4.8
 
-    Functions  : 2821
+    Functions  : 2838
 
 
 ### Installation
@@ -32,6 +32,14 @@ Alternatively, install through command-line:
 
 	apm install wordpress-autocomplete
 
+  > Feel Free to **Star** and **Fork** it. 
+
 ### Changelogs
+- Version 1.2:
+  * Support upto WordPress 4.8
+  * Fix extra space issue
+
+
 - Version 1.1.3: Meta Update
+
 - Version 1.1: Initial Start (Support all WordPress 4.7.3 function).
