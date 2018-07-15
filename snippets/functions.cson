@@ -1,5 +1,5 @@
 '.source.php':
-	"":
+	"_":
 		"prefix":"_"
 		"body":"_()"
 	"Retrieve the translation of $text.":
@@ -97,7 +97,7 @@ functions such as htmlspecialchars() and charset html attributes.":
 	"Preview fix for JavaScript bug with foreign languages.":
 		"prefix":"_convert_urlencoded_to_entities"
 		"body":"_convert_urlencoded_to_entities( ${1:\\$match} )"
-	"Copies a directory from one location to another via the WordPress Filesystem Abstraction.":
+	"_copy_dir":
 		"prefix":"_copy_dir"
 		"body":"_copy_dir( ${1:\\$from}${2:, \\$to}${3:, \\$skip_list = array()} )"
 	"Copy an existing image file.":
@@ -257,13 +257,13 @@ out of a custom-something object":
 	"This was once used to display an 'Insert into Post' button.":
 		"prefix":"_insert_into_post_button"
 		"body":"_insert_into_post_button()"
-	"":
+	"_ipad_meta":
 		"prefix":"_ipad_meta"
 		"body":"_ipad_meta()"
 	"Return if a menu item is valid.":
 		"prefix":"_is_valid_nav_menu_item"
 		"body":"_is_valid_nav_menu_item( ${1:\\$item} )"
-	"":
+	"_json_decode_object_helper":
 		"prefix":"_json_decode_object_helper"
 		"body":"_json_decode_object_helper( ${1:\\$data} )"
 	"Callback to add a base url to relative links in passed content.":
@@ -317,7 +317,7 @@ out of a custom-something object":
 	"This was once used to display a media button.":
 		"prefix":"_media_button"
 		"body":"_media_button()"
-	"":
+	"_media_states":
 		"prefix":"_media_states"
 		"body":"_media_states( ${1:\\$post} )"
 	"Translates and retrieves the singular or plural form based on the supplied number.":
@@ -371,7 +371,7 @@ out of a custom-something object":
 	"Remove the post format prefix from the name property of the term objects created by wp_get_object_terms().":
 		"prefix":"_post_format_wp_get_object_terms"
 		"body":"_post_format_wp_get_object_terms( ${1:\\$terms} )"
-	"":
+	"_post_states":
 		"prefix":"_post_states"
 		"body":"_post_states( ${1:\\$post} )"
 	"Store or return a list of post type meta caps for map_meta_cap().":
@@ -518,7 +518,7 @@ with another term_taxonomy.":
 	"Cleans up Genericons example files.":
 		"prefix":"_upgrade_422_remove_genericons"
 		"body":"_upgrade_422_remove_genericons()"
-	"":
+	"_upgrade_440_force_deactivate_incompatible_plugins":
 		"prefix":"_upgrade_440_force_deactivate_incompatible_plugins"
 		"body":"_upgrade_440_force_deactivate_incompatible_plugins()"
 	"Upgrade a Cron info array.":
@@ -542,7 +542,7 @@ with another term_taxonomy.":
 	"Instantiate the admin bar object and set it up as a global for access elsewhere.":
 		"prefix":"_wp_admin_bar_init"
 		"body":"_wp_admin_bar_init()"
-	"":
+	"_wp_admin_html_begin":
 		"prefix":"_wp_admin_html_begin"
 		"body":"_wp_admin_html_begin()"
 	"Ajax handler for adding a hierarchical term.":
@@ -668,7 +668,7 @@ and moving the file to the appropriate directory within the uploads directory.":
 	"Make sure that auto-draft posts get their post_date bumped to prevent premature garbage-collection.":
 		"prefix":"_wp_keep_alive_customize_changeset_dependent_auto_drafts"
 		"body":"_wp_keep_alive_customize_changeset_dependent_auto_drafts( ${1:\\$new_status}${2:, \\$old_status}${3:, \\$post} )"
-	"Regex callback for wp_kses_decode_entities()":
+	"Regex callback for wp_kses_decode_entities":
 		"prefix":"_wp_kses_decode_entities_chr"
 		"body":"_wp_kses_decode_entities_chr( ${1:\\$match} )"
 	"Regex callback for wp_kses_decode_entities()":
@@ -809,7 +809,7 @@ on tag close.":
 	"Add contextual help text for a page.":
 		"prefix":"add_contextual_help"
 		"body":"add_contextual_help( ${1:\\$screen}${2:, \\$help} )"
-	"":
+	"add_cssclass":
 		"prefix":"add_cssclass"
 		"body":"add_cssclass( ${1:\\$add}${2:, \\$class} )"
 	"Add callbacks for background image display.":
@@ -851,7 +851,7 @@ on tag close.":
 	"Add submenu page to the Media main menu.":
 		"prefix":"add_media_page"
 		"body":"add_media_page( ${1:\\$page_title}${2:, \\$menu_title}${3:, \\$capability}${4:, \\$menu_slug}${5:, \\$function = ''} )"
-	"":
+	"add_menu_classes":
 		"prefix":"add_menu_classes"
 		"body":"add_menu_classes( ${1:\\$menu} )"
 	"Add a top-level menu page.":
@@ -989,7 +989,7 @@ on tag close.":
 	"Display the default admin color scheme picker (Used in user-edit.php)":
 		"prefix":"admin_color_scheme_picker"
 		"body":"admin_color_scheme_picker( ${1:\\$user_id} )"
-	"":
+	"admin_created_user_email":
 		"prefix":"admin_created_user_email"
 		"body":"admin_created_user_email( ${1:\\$text} )"
 	"Retrieves the URL to the admin area for the current site.":
@@ -1043,7 +1043,7 @@ on tag close.":
 	"Tries to convert an attachment URL into a post ID.":
 		"prefix":"attachment_url_to_postid"
 		"body":"attachment_url_to_postid( ${1:\\$url} )"
-	"Escaping for HTML attributes.":
+	"Escaping for HTML attributes":
 		"prefix":"attribute_escape"
 		"body":"attribute_escape( ${1:\\$text} )"
 	"Checks if a user is logged in, if not it redirects them to the login page.":
@@ -1196,7 +1196,7 @@ on tag close.":
 	"Will remove all of the term ids from the cache.":
 		"prefix":"clean_term_cache"
 		"body":"clean_term_cache( ${1:\\$ids}${2:, \\$taxonomy = ''}${3:, \\$clean_taxonomy = true} )"
-	"Checks and cleans a URL.":
+	"Checks and cleans a URLr":
 		"prefix":"clean_url"
 		"body":"clean_url( ${1:\\$url}${2:, \\$protocols = null}${3:, \\$context = 'display'} )"
 	"Clean all user caches":
@@ -1319,7 +1319,7 @@ on tag close.":
 	"New site signup confirmation":
 		"prefix":"confirm_blog_signup"
 		"body":"confirm_blog_signup( ${1:\\$domain}${2:, \\$path}${3:, \\$blog_title}${4:, \\$user_name = ''}${5:, \\$user_email = ''}${6:, \\$meta = array()} )"
-	"":
+	"confirm_delete_users":
 		"prefix":"confirm_delete_users"
 		"body":"confirm_delete_users( ${1:\\$users} )"
 	"New user signup confirmation":
@@ -1343,7 +1343,7 @@ on tag close.":
 	"Copies a directory from one location to another via the WordPress Filesystem Abstraction.":
 		"prefix":"copy_dir"
 		"body":"copy_dir( ${1:\\$from}${2:, \\$to}${3:, \\$skip_list = array()} )"
-	"":
+	"core_update_footer":
 		"prefix":"core_update_footer"
 		"body":"core_update_footer( ${1:\\$msg = ''} )"
 	"Display upgrade WordPress for downloading latest or upgrading automatically form.":
@@ -1397,7 +1397,7 @@ on tag close.":
 	"Print JS templates for the theme-browsing UI in the Customizer.":
 		"prefix":"customize_themes_print_templates"
 		"body":"customize_themes_print_templates()"
-	"":
+	"dashboard_browser_nag_class":
 		"prefix":"dashboard_browser_nag_class"
 		"body":"dashboard_browser_nag_class( ${1:\\$classes} )"
 	"Retrieve the date in localized format, based on timestamp.":
@@ -1424,13 +1424,13 @@ on tag close.":
 	"Write contents to the file used for debugging.":
 		"prefix":"debug_fwrite"
 		"body":"debug_fwrite( ${1:\\$fp}${2:, \\$string} )"
-	"":
+	"default_password_nag":
 		"prefix":"default_password_nag"
 		"body":"default_password_nag()"
-	"":
+	"default_password_nag_edit_user":
 		"prefix":"default_password_nag_edit_user"
 		"body":"default_password_nag_edit_user( ${1:\\$user_ID}${2:, \\$old_data} )"
-	"":
+	"default_password_nag_handler":
 		"prefix":"default_password_nag_handler"
 		"body":"default_password_nag_handler( ${1:\\$errors = false} )"
 	"Default topic count scaling for tag links.":
@@ -1505,7 +1505,7 @@ on tag close.":
 	"Remove user meta data.":
 		"prefix":"delete_usermeta"
 		"body":"delete_usermeta( ${1:\\$user_id}${2:, \\$meta_key}${3:, \\$meta_value = ''} )"
-	"":
+	"delete_users_add_js":
 		"prefix":"delete_users_add_js"
 		"body":"delete_users_add_js()"
 	"Filters for content to remove unnecessary slashes.":
@@ -1520,10 +1520,10 @@ on tag close.":
 	"Finds a pingback server URI based on the given URL.":
 		"prefix":"discover_pingback_server_uri"
 		"body":"discover_pingback_server_uri( ${1:\\$url}${2:, \\$deprecated = ''} )"
-	"":
+	"dismiss_core_update":
 		"prefix":"dismiss_core_update"
 		"body":"dismiss_core_update( ${1:\\$update} )"
-	"":
+	"dismissed_updates":
 		"prefix":"dismissed_updates"
 		"body":"dismissed_updates()"
 	"Display install header.":
@@ -1568,7 +1568,7 @@ on tag close.":
 	"Upgrade WordPress core display.":
 		"prefix":"do_core_upgrade"
 		"body":"do_core_upgrade( ${1:\\$reinstall = false} )"
-	"":
+	"do_dismiss_core_update":
 		"prefix":"do_dismiss_core_update"
 		"body":"do_dismiss_core_update()"
 	"Check content for video and audio links to add as enclosures.":
@@ -1616,7 +1616,7 @@ on tag close.":
 	"Perform trackbacks.":
 		"prefix":"do_trackbacks"
 		"body":"do_trackbacks( ${1:\\$post_id} )"
-	"":
+	"do_undismiss_core_update":
 		"prefix":"do_undismiss_core_update"
 		"body":"do_undismiss_core_update()"
 	"Unused Admin function.":
@@ -1685,7 +1685,7 @@ on tag close.":
 	"XML callback function that is called at the end of a XML tag.":
 		"prefix":"endelement"
 		"body":"endelement( ${1:\\$parser}${2:, \\$tagName} )"
-	"":
+	"enqueue_comment_hotkeys_js":
 		"prefix":"enqueue_comment_hotkeys_js"
 		"body":"enqueue_comment_hotkeys_js()"
 	"Enqueue embed iframe default CSS and JS &amp; fire do_action('enqueue_embed_scripts')":
@@ -1778,7 +1778,7 @@ on tag close.":
 	"Gets the best available (and enabled) Auto-Update for WordPress Core.":
 		"prefix":"find_core_auto_update"
 		"body":"find_core_auto_update()"
-	"":
+	"find_core_update":
 		"prefix":"find_core_update"
 		"body":"find_core_update( ${1:\\$version}${2:, \\$locale} )"
 	"Outputs the modal window used for attaching media to posts or pages in the media-listing screen.":
@@ -1856,10 +1856,10 @@ on tag close.":
 	"Retrieves the adjacent post relational link.":
 		"prefix":"get_adjacent_post_rel_link"
 		"body":"get_adjacent_post_rel_link( ${1:\\$title = '%title'}${2:, \\$in_same_term = false}${3:, \\$excluded_terms = ''}${4:, \\$previous = true}${5:, \\$taxonomy = 'category'} )"
-	"":
+	"get_admin_page_parent":
 		"prefix":"get_admin_page_parent"
 		"body":"get_admin_page_parent()"
-	"":
+	"get_admin_page_title":
 		"prefix":"get_admin_page_title"
 		"body":"get_admin_page_title()"
 	"Retrieves the URL to the admin area for a given site.":
@@ -2195,7 +2195,7 @@ on tag close.":
 	"Retrieve the amount of comments a post has.":
 		"prefix":"get_comments_number"
 		"body":"get_comments_number( ${1:\\$post_id} )"
-	"Display the language string for the number of comments the current post has.":
+	"Display the language string for the number of comments the current post has":
 		"prefix":"get_comments_number_text"
 		"body":"get_comments_number_text( ${1:\\$zero = false}${2:, \\$one = false}${3:, \\$more = false} )"
 	"Retrieves the comments page number link.":
@@ -2204,7 +2204,7 @@ on tag close.":
 	"Retrieve path of comment popup template in current or parent template.":
 		"prefix":"get_comments_popup_template"
 		"body":"get_comments_popup_template()"
-	"":
+	"get_compat_media_markup":
 		"prefix":"get_compat_media_markup"
 		"body":"get_compat_media_markup( ${1:\\$attachment_id}${2:, \\$args = null} )"
 	"Gets and caches the checksums for the given version of WordPress.":
@@ -2528,7 +2528,7 @@ files on the filesystem.":
 	"Retrieves the next post link that is adjacent to the current post.":
 		"prefix":"get_next_post_link"
 		"body":"get_next_post_link( ${1:\\$format = '%link &raquo;'}${2:, \\$link = '%title'}${3:, \\$in_same_term = false}${4:, \\$excluded_terms = ''}${5:, \\$taxonomy = 'category'} )"
-	"Retrieves the next posts page link.":
+	"Retrieves the next posts link.":
 		"prefix":"get_next_posts_link"
 		"body":"get_next_posts_link( ${1:\\$label = null}${2:, \\$max_page} )"
 	"Retrieves the next posts page link.":
@@ -2640,13 +2640,13 @@ a post object or post type name.":
 	"Get a list of a plugin's files.":
 		"prefix":"get_plugin_files"
 		"body":"get_plugin_files( ${1:\\$plugin} )"
-	"":
+	"get_plugin_page_hook":
 		"prefix":"get_plugin_page_hook"
 		"body":"get_plugin_page_hook( ${1:\\$plugin_page}${2:, \\$parent_page} )"
-	"":
+	"get_plugin_page_hookname":
 		"prefix":"get_plugin_page_hookname"
 		"body":"get_plugin_page_hookname( ${1:\\$plugin_page}${2:, \\$parent_page} )"
-	"":
+	"get_plugin_updates":
 		"prefix":"get_plugin_updates"
 		"body":"get_plugin_updates()"
 	"Check the plugins directory and retrieve all plugin files with plugin data.":
@@ -2721,7 +2721,7 @@ a post object or post type name.":
 	"Get default post mime types.":
 		"prefix":"get_post_mime_types"
 		"body":"get_post_mime_types()"
-	"Retrieve the time at which the post was last modified.":
+	"Retrieve the time at which the post was last modifiedre":
 		"prefix":"get_post_modified_time"
 		"body":"get_post_modified_time( ${1:\\$d = 'U'}${2:, \\$gmt = false}${3:, \\$post = null}${4:, \\$translate = false} )"
 	"Retrieves the permalink for a post of a custom post type.":
@@ -2808,7 +2808,7 @@ a post object or post type name.":
 	"Retrieves the previous post link that is adjacent to the current post.":
 		"prefix":"get_previous_post_link"
 		"body":"get_previous_post_link( ${1:\\$format = '&laquo; %link'}${2:, \\$link = '%title'}${3:, \\$in_same_term = false}${4:, \\$excluded_terms = ''}${5:, \\$taxonomy = 'category'} )"
-	"Retrieves the previous posts page link.":
+	"Retrieves the previous posts link.":
 		"prefix":"get_previous_posts_link"
 		"body":"get_previous_posts_link( ${1:\\$label = null} )"
 	"Retrieves the previous posts page link.":
@@ -3173,7 +3173,7 @@ single Attachments, and single custom post types.":
 	"Retrieve protected post password form content.":
 		"prefix":"get_the_password_form"
 		"body":"get_the_password_form( ${1:\\$post} )"
-	"Retrieves the full permalink for the current post or post ID.":
+	"Retrieves the full permalink for the current post or post ID":
 		"prefix":"get_the_permalink"
 		"body":"get_the_permalink( ${1:\\$post}${2:, \\$leavename = false} )"
 	"Retrieves the navigation to next/previous post, when applicable.":
@@ -3197,7 +3197,7 @@ single Attachments, and single custom post types.":
 	"Retrieve the tags for a post formatted as a string.":
 		"prefix":"get_the_tag_list"
 		"body":"get_the_tag_list( ${1:\\$before = ''}${2:, \\$sep = ''}${3:, \\$after = ''}${4:, \\$id} )"
-	"Retrieve the tags for a post.":
+	"Retrieve the tags for a post. get_the_tags":
 		"prefix":"get_the_tags"
 		"body":"get_the_tags( ${1:\\$id} )"
 	"Retrieve all taxonomies associated with a post.":
@@ -3209,7 +3209,7 @@ single Attachments, and single custom post types.":
 	"Retrieve the terms of the taxonomy that are attached to the post.":
 		"prefix":"get_the_terms"
 		"body":"get_the_terms( ${1:\\$post}${2:, \\$taxonomy} )"
-	"Retrieve the time at which the post was written.":
+	"Retrieve the time at which the post was written":
 		"prefix":"get_the_time"
 		"body":"get_the_time( ${1:\\$d = ''}${2:, \\$post = null} )"
 	"Retrieve post title.":
@@ -3257,7 +3257,7 @@ single Attachments, and single custom post types.":
 	"Retrieve the update link if there is a theme update available.":
 		"prefix":"get_theme_update_available"
 		"body":"get_theme_update_available( ${1:\\$theme} )"
-	"":
+	"get_theme_updates":
 		"prefix":"get_theme_updates"
 		"body":"get_theme_updates()"
 	"Retrieve list of themes with theme data in theme directory.":
@@ -3278,10 +3278,10 @@ single Attachments, and single custom post types.":
 	"Calculated the new dimensions for a downsampled image.":
 		"prefix":"get_udims"
 		"body":"get_udims( ${1:\\$width}${2:, \\$height} )"
-	"":
+	"get_upload_iframe_src":
 		"prefix":"get_upload_iframe_src"
 		"body":"get_upload_iframe_src( ${1:\\$type = null}${2:, \\$post_id = null}${3:, \\$tab = null} )"
-	"Determines if there is any upload space left in the current blog's quota.":
+	"Determines if there is any upload space left in the current blog's quota":
 		"prefix":"get_upload_space_available"
 		"body":"get_upload_space_available()"
 	"Get the header images uploaded for the current theme.":
@@ -3553,7 +3553,7 @@ BEGIN and END markers.":
 	"Set blog defaults.":
 		"prefix":"install_blog_defaults"
 		"body":"install_blog_defaults( ${1:\\$blog_id}${2:, \\$user_id} )"
-	"":
+	"install_dashboard":
 		"prefix":"install_dashboard"
 		"body":"install_dashboard()"
 	"Install global terms.":
@@ -3589,10 +3589,10 @@ BEGIN and END markers.":
 	"Display tags filter for themes.":
 		"prefix":"install_themes_dashboard"
 		"body":"install_themes_dashboard()"
-	"Retrieve list of WordPress theme features (aka theme tags)":
+	"Retrieve list of WordPress theme features (aka theme tags).":
 		"prefix":"install_themes_feature_list"
 		"body":"install_themes_feature_list()"
-	"":
+	"install_themes_upload":
 		"prefix":"install_themes_upload"
 		"body":"install_themes_upload()"
 	"Is the query a 404 (returns no results)?":
@@ -3640,7 +3640,7 @@ BEGIN and END markers.":
 	"Whether a child theme is in use.":
 		"prefix":"is_child_theme"
 		"body":"is_child_theme()"
-	"":
+	"is_client_error":
 		"prefix":"is_client_error"
 		"body":"is_client_error()"
 	"Is the query for a comments feed?":
@@ -3670,7 +3670,7 @@ BEGIN and END markers.":
 	"Is the query for an embedded post?":
 		"prefix":"is_embed"
 		"body":"is_embed()"
-	"":
+	"is_error":
 		"prefix":"is_error"
 		"body":"is_error()"
 	"Is the query for a feed?":
@@ -3685,7 +3685,7 @@ BEGIN and END markers.":
 	"Determines if the query is for the blog homepage.":
 		"prefix":"is_home"
 		"body":"is_home()"
-	"":
+	"is_info":
 		"prefix":"is_info"
 		"body":"is_info()"
 	"Is the server running earlier than 1.5.0 version of lighttpd?":
@@ -3781,7 +3781,7 @@ publish date of the previous post in the loop.":
 	"Check if random header image is in use.":
 		"prefix":"is_random_header_image"
 		"body":"is_random_header_image( ${1:\\$type = 'any'} )"
-	"":
+	"is_redirect":
 		"prefix":"is_redirect"
 		"body":"is_redirect()"
 	"Checks if a sidebar is registered.":
@@ -3802,7 +3802,7 @@ publish date of the previous post in the loop.":
 	"Check whether serialized data is of string type.":
 		"prefix":"is_serialized_string"
 		"body":"is_serialized_string( ${1:\\$data} )"
-	"":
+	"is_server_error":
 		"prefix":"is_server_error"
 		"body":"is_server_error()"
 	"Is the query for an existing single post?":
@@ -3824,10 +3824,10 @@ custom post types)?":
 	"Whether a subdomain configuration is enabled.":
 		"prefix":"is_subdomain_install"
 		"body":"is_subdomain_install()"
-	"":
+	"is_success":
 		"prefix":"is_success"
 		"body":"is_success()"
-	"Determine if user is a site admin.":
+	"Determine if user is a site admin":
 		"prefix":"is_super_admin"
 		"body":"is_super_admin( ${1:\\$user_id = false} )"
 	"Is the query for an existing tag archive page?":
@@ -3941,10 +3941,10 @@ custom post types)?":
 	"Lists authors.":
 		"prefix":"list_authors"
 		"body":"list_authors( ${1:\\$optioncount = false}${2:, \\$exclude_admin = true}${3:, \\$show_fullname = false}${4:, \\$hide_empty = true}${5:, \\$feed = ''}${6:, \\$feed_image = ''} )"
-	"Lists categories.":
+	"Lists categories. list_cats":
 		"prefix":"list_cats"
 		"body":"list_cats( ${1:\\$optionall = 1}${2:, \\$all = 'All'}${3:, \\$sort_column = 'ID'}${4:, \\$sort_order = 'asc'}${5:, \\$file = ''}${6:, \\$list = true}${7:, \\$optiondates}${8:, \\$optioncount}${9:, \\$hide_empty = 1}${10:, \\$use_desc_for_title = 1}${11:, \\$children = false}${12:, \\$child_of}${13:, \\$categories}${14:, \\$recurse}${15:, \\$feed = ''}${16:, \\$feed_image = ''}${17:, \\$exclude = ''}${18:, \\$hierarchical = false} )"
-	"":
+	"list_core_update":
 		"prefix":"list_core_update"
 		"body":"list_core_update( ${1:\\$update} )"
 	"Returns a listing of all files in the specified folder and all subdirectories up to 100 levels deep.":
@@ -3953,13 +3953,13 @@ custom post types)?":
 	"Outputs a post's public meta data in the Custom Fields meta box.":
 		"prefix":"list_meta"
 		"body":"list_meta( ${1:\\$meta} )"
-	"":
+	"list_plugin_updates":
 		"prefix":"list_plugin_updates"
 		"body":"list_plugin_updates()"
-	"":
+	"list_theme_updates":
 		"prefix":"list_theme_updates"
 		"body":"list_theme_updates()"
-	"":
+	"list_translation_updates":
 		"prefix":"list_translation_updates"
 		"body":"list_translation_updates()"
 	"Load the child themes translated strings.":
@@ -4001,7 +4001,7 @@ custom post types)?":
 	"logIO() - Writes logging info to a file.":
 		"prefix":"logio"
 		"body":"logio( ${1:\\$io}${2:, \\$msg} )"
-	"":
+	"maintenance_nag":
 		"prefix":"maintenance_nag"
 		"body":"maintenance_nag()"
 	"Convert plaintext URI to HTML links.":
@@ -4259,7 +4259,7 @@ after email address change.":
 	"Displays the next posts page link.":
 		"prefix":"next_posts_link"
 		"body":"next_posts_link( ${1:\\$label = null}${2:, \\$max_page} )"
-	"":
+	"next_widget_id_number":
 		"prefix":"next_widget_id_number"
 		"body":"next_widget_id_number( ${1:\\$id_base} )"
 	"Set the headers to prevent caching for the different browsers.":
@@ -4280,13 +4280,13 @@ after email address change.":
 	"Output JavaScript to toggle display of additional settings if avatars are disabled.":
 		"prefix":"options_discussion_add_js"
 		"body":"options_discussion_add_js()"
-	"Display JavaScript on the page.":
+	"Display JavaScript on the page options_general_add_js.":
 		"prefix":"options_general_add_js"
 		"body":"options_general_add_js()"
-	"Display JavaScript on the page.":
+	"Display JavaScript on the page options_permalink_add_js.":
 		"prefix":"options_permalink_add_js"
 		"body":"options_permalink_add_js()"
-	"Display JavaScript on the page.":
+	"Display JavaScript on the page options_reading_add_js.":
 		"prefix":"options_reading_add_js"
 		"body":"options_reading_add_js()"
 	"Render the site charset setting.":
@@ -4310,7 +4310,7 @@ after email address change.":
 	"Display relational link for parent item":
 		"prefix":"parent_post_rel_link"
 		"body":"parent_post_rel_link( ${1:\\$title = '%title'} )"
-	"":
+	"parse_w3cdtf":
 		"prefix":"parse_w3cdtf"
 		"body":"parse_w3cdtf()"
 	"Test if a give filesystem path is absolute.":
@@ -4319,22 +4319,22 @@ after email address change.":
 	"Join two filesystem paths together.":
 		"prefix":"path_join"
 		"body":"path_join( ${1:\\$base}${2:, \\$path} )"
-	"":
+	"pclziputilcopyblock":
 		"prefix":"pclziputilcopyblock"
 		"body":"pclziputilcopyblock()"
-	"":
+	"pclziputiloptiontext":
 		"prefix":"pclziputiloptiontext"
 		"body":"pclziputiloptiontext()"
-	"":
+	"pclziputilpathinclusion":
 		"prefix":"pclziputilpathinclusion"
 		"body":"pclziputilpathinclusion()"
-	"":
+	"pclziputilpathreduction":
 		"prefix":"pclziputilpathreduction"
 		"body":"pclziputilpathreduction()"
-	"":
+	"pclziputilrename":
 		"prefix":"pclziputilrename"
 		"body":"pclziputilrename()"
-	"":
+	"pclziputiltranslatewinpath":
 		"prefix":"pclziputiltranslatewinpath"
 		"body":"pclziputiltranslatewinpath()"
 	"Displays the permalink anchor for the current post.":
@@ -4364,7 +4364,7 @@ after email address change.":
 	"Get the URL directory path (with trailing slash) for the plugin __FILE__ passed in.":
 		"prefix":"plugin_dir_url"
 		"body":"plugin_dir_url( ${1:\\$file} )"
-	"":
+	"plugin_sandbox_scrape":
 		"prefix":"plugin_sandbox_scrape"
 		"body":"plugin_sandbox_scrape( ${1:\\$plugin} )"
 	"Retrieves plugin installer pages from the WordPress.org Plugins API.":
@@ -4688,7 +4688,7 @@ random numbers in accordance with best practices":
 	"Register a widget":
 		"prefix":"register_widget"
 		"body":"register_widget( ${1:\\$widget_class} )"
-	"Registers widget control callback for customizing options.":
+	"Registers widget control callback for customizing options. register_widget_control":
 		"prefix":"register_widget_control"
 		"body":"register_widget_control( ${1:\\$name}${2:, \\$control_callback}${3:, \\$width = ''}${4:, \\$height = ''} )"
 	"Checks if a meta key is registered.":
@@ -5065,7 +5065,7 @@ is from an allowed origin.":
 	"Set the current screen object":
 		"prefix":"set_current_screen"
 		"body":"set_current_screen( ${1:\\$hook_name = ''} )"
-	"Changes the current user by ID or name.":
+	"Changes the current user by ID or name. set_current_user":
 		"prefix":"set_current_user"
 		"body":"set_current_user( ${1:\\$id}${2:, \\$name = ''} )"
 	"Assign a format to a post":
@@ -5107,7 +5107,7 @@ is from an allowed origin.":
 	"Output nonce, action, and option_page fields for a settings page.":
 		"prefix":"settings_fields"
 		"body":"settings_fields( ${1:\\$option_group} )"
-	"":
+	"setup_config_display_header":
 		"prefix":"setup_config_display_header"
 		"body":"setup_config_display_header()"
 	"Set up global post data.":
@@ -5192,7 +5192,7 @@ is from an allowed origin.":
 	"Convert smiley code to the icon graphic file equivalent.":
 		"prefix":"smilies_init"
 		"body":"smilies_init()"
-	"":
+	"sort_menu":
 		"prefix":"sort_menu"
 		"body":"sort_menu( ${1:\\$a}${2:, \\$b} )"
 	"Sends a request to run cron through HTTP request that doesn't halt page loading.":
@@ -5268,18 +5268,18 @@ in $_REQUEST['history']":
 	"Check whether a post tag with a given name exists.":
 		"prefix":"tag_exists"
 		"body":"tag_exists( ${1:\\$tag_name} )"
-	"Checks that the taxonomy name exists.":
+	"Checks that the taxonomy name exists. taxonomy_exists":
 		"prefix":"taxonomy_exists"
 		"body":"taxonomy_exists( ${1:\\$taxonomy} )"
 	"Retrieve term description.":
 		"prefix":"term_description"
 		"body":"term_description( ${1:\\$term}${2:, \\$taxonomy = 'post_tag'} )"
-	"Check if Term exists.":
+	"Check if Term exists term_exists.":
 		"prefix":"term_exists"
 		"body":"term_exists( ${1:\\$term}${2:, \\$taxonomy = ''}${3:, \\$parent = null} )"
 	"Check if a term is an ancestor of another term.":
 		"prefix":"term_is_ancestor_of"
-		"body":"term_is_ancestor_of( ${1:\\$term1}${2:, \\$term2}${3:, \\$taxonomy} )"
+		"body":"term_is_ancestor_of( ${1:\\$term1}${2:, \\$term2}${3:, \\rel$taxonomy} )"
 	"Display category, tag, term, or author description.":
 		"prefix":"the_archive_description"
 		"body":"the_archive_description( ${1:\\$before = ''}${2:, \\$after = ''} )"
@@ -5470,7 +5470,7 @@ if the author's ID is available.":
 	"Displays the shortlink for a post.":
 		"prefix":"the_shortlink"
 		"body":"the_shortlink( ${1:\\$text = ''}${2:, \\$title = ''}${3:, \\$before = ''}${4:, \\$after = ''} )"
-	"Retrieve the tags for a post.":
+	"Retrieve the tags for a post. the_tags":
 		"prefix":"the_tags"
 		"body":"the_tags( ${1:\\$before = null}${2:, \\$sep = ', '}${3:, \\$after = ''} )"
 	"Display the taxonomies of a post with available options.":
@@ -5491,7 +5491,7 @@ if the author's ID is available.":
 	"Display the post title in the feed.":
 		"prefix":"the_title_rss"
 		"body":"the_title_rss()"
-	"Display the weekday on which the post was written.":
+	"Display the weekday on which the post was written. the_weekdayre":
 		"prefix":"the_weekday"
 		"body":"the_weekday()"
 	"Display the weekday on which the post was written.":
@@ -5512,7 +5512,7 @@ if the author's ID is available.":
 	"Retrieve or display the time from the page start to when function is called.":
 		"prefix":"timer_stop"
 		"body":"timer_stop( ${1:\\$display}${2:, \\$precision = 3} )"
-	"":
+	"tinymce_include":
 		"prefix":"tinymce_include"
 		"body":"tinymce_include()"
 	"Print out HTML form date elements for editing post or comment publish date.":
@@ -5536,7 +5536,7 @@ if the author's ID is available.":
 	"Appends a trailing slash.":
 		"prefix":"trailingslashit"
 		"body":"trailingslashit( ${1:\\$string} )"
-	"Retrieve the translation of $text.":
+	"Retrieve the translation of $text. translate":
 		"prefix":"translate"
 		"body":"translate( ${1:\\$text}${2:, \\$domain = 'default'} )"
 	"Translate user level to user role name.":
@@ -5574,7 +5574,7 @@ contains a context after its last vertical bar.":
 	"Handles retrieving the insert-from-URL form for a video file.":
 		"prefix":"type_url_form_video"
 		"body":"type_url_form_video()"
-	"":
+	"undismiss_core_update":
 		"prefix":"undismiss_core_update"
 		"body":"undismiss_core_update( ${1:\\$version}${2:, \\$locale} )"
 	"Remove placeholders added by do_shortcodes_in_html_tags().":
@@ -5677,7 +5677,7 @@ ID and metadata key, the metadata will be added.":
 	"Update meta data by meta ID":
 		"prefix":"update_metadata_by_mid"
 		"body":"update_metadata_by_mid( ${1:\\$meta_type}${2:, \\$meta_id}${3:, \\$meta_value}${4:, \\$meta_key = false} )"
-	"":
+	"update_nag":
 		"prefix":"update_nag"
 		"body":"update_nag()"
 	"Updates the network cache of given networks.":
@@ -5719,7 +5719,7 @@ ID and metadata key, the metadata will be added.":
 	"Update the &quot;recently-edited&quot; file for the plugin or theme editor.":
 		"prefix":"update_recently_edited"
 		"body":"update_recently_edited( ${1:\\$file} )"
-	"":
+	"update_right_now_message":
 		"prefix":"update_right_now_message"
 		"body":"update_right_now_message()"
 	"Updates sites in cache.":
@@ -5890,28 +5890,28 @@ ID and metadata key, the metadata will be added.":
 	"Whether a particular user has capability or role.":
 		"prefix":"user_can"
 		"body":"user_can( ${1:\\$user}${2:, \\$capability} )"
-	"":
+	"user_can_access_admin_page":
 		"prefix":"user_can_access_admin_page"
 		"body":"user_can_access_admin_page()"
-	"Whether user can create a post.":
+	"Whether user can create a post. user_can_create_draft":
 		"prefix":"user_can_create_draft"
 		"body":"user_can_create_draft( ${1:\\$user_id}${2:, \\$blog_id = 1}${3:, \\$category_id = 'None'} )"
-	"Whether user can create a post.":
+	"Whether user can create a post. user_can_create_post":
 		"prefix":"user_can_create_post"
 		"body":"user_can_create_post( ${1:\\$user_id}${2:, \\$blog_id = 1}${3:, \\$category_id = 'None'} )"
-	"Whether user can delete a post.":
+	"Whether user can delete a post. user_can_delete_post":
 		"prefix":"user_can_delete_post"
 		"body":"user_can_delete_post( ${1:\\$user_id}${2:, \\$post_id}${3:, \\$blog_id = 1} )"
-	"Whether user can delete a post.":
+	"Whether user can delete a post. user_can_delete_post_comments":
 		"prefix":"user_can_delete_post_comments"
 		"body":"user_can_delete_post_comments( ${1:\\$user_id}${2:, \\$post_id}${3:, \\$blog_id = 1} )"
 	"Whether user can edit a post.":
 		"prefix":"user_can_edit_post"
 		"body":"user_can_edit_post( ${1:\\$user_id}${2:, \\$post_id}${3:, \\$blog_id = 1} )"
-	"Whether user can delete a post.":
+	"Whether user can delete a post. user_can_edit_post_comments":
 		"prefix":"user_can_edit_post_comments"
 		"body":"user_can_edit_post_comments( ${1:\\$user_id}${2:, \\$post_id}${3:, \\$blog_id = 1} )"
-	"Whether user can delete a post.":
+	"Whether user can delete a post. user_can_edit_post_date":
 		"prefix":"user_can_edit_post_date"
 		"body":"user_can_edit_post_date( ${1:\\$user_id}${2:, \\$post_id}${3:, \\$blog_id = 1} )"
 	"Can user can edit other user.":
@@ -6145,7 +6145,7 @@ ID and metadata key, the metadata will be added.":
 	"Ajax handler for deleting meta.":
 		"prefix":"wp_ajax_delete_meta"
 		"body":"wp_ajax_delete_meta()"
-	"":
+	"wp_ajax_delete_page":
 		"prefix":"wp_ajax_delete_page"
 		"body":"wp_ajax_delete_page( ${1:\\$action} )"
 	"Ajax handler for deleting a plugin.":
@@ -6251,7 +6251,7 @@ the no-privilege context.":
 	"Apply [embed] Ajax handlers to a string.":
 		"prefix":"wp_ajax_parse_embed"
 		"body":"wp_ajax_parse_embed()"
-	"":
+	"wp_ajax_parse_media_shortcode":
 		"prefix":"wp_ajax_parse_media_shortcode"
 		"body":"wp_ajax_parse_media_shortcode()"
 	"Ajax handler for creating new category from Press This.":
@@ -6327,7 +6327,7 @@ a user's own profile.":
 	"Ajax handler for updating whether to display the welcome panel.":
 		"prefix":"wp_ajax_update_welcome_panel"
 		"body":"wp_ajax_update_welcome_panel()"
-	"Ajax handler for saving a widget.":
+	"Ajax handler for updating a widget.":
 		"prefix":"wp_ajax_update_widget"
 		"body":"wp_ajax_update_widget()"
 	"Ajax handler for uploading attachments":
@@ -6531,7 +6531,7 @@ a database drop-in.":
 	"Copy an object.":
 		"prefix":"wp_clone"
 		"body":"wp_clone( ${1:\\$object} )"
-	"":
+	"wp_color_scheme_settings":
 		"prefix":"wp_color_scheme_settings"
 		"body":"wp_color_scheme_settings()"
 	"Display form token for unfiltered comments.":
@@ -6555,7 +6555,7 @@ a database drop-in.":
 	"Convert the widget settings from single to multi-widget format.":
 		"prefix":"wp_convert_widget_settings"
 		"body":"wp_convert_widget_settings( ${1:\\$base_name}${2:, \\$option_name}${3:, \\$settings} )"
-	"Defines cookie related WordPress constants":
+	"Defines cookie related WordPress constants wp_cookie_constants":
 		"prefix":"wp_cookie_constants"
 		"body":"wp_cookie_constants()"
 	"Count number of attachments for the mime type(s).":
@@ -6621,7 +6621,7 @@ to the body.":
 	"Displays the dashboard.":
 		"prefix":"wp_dashboard"
 		"body":"wp_dashboard()"
-	"":
+	"wp_dashboard_browser_nag":
 		"prefix":"wp_dashboard_browser_nag"
 		"body":"wp_dashboard_browser_nag()"
 	"Checks to see if all of the feed url in $check_urls are cached.":
@@ -6633,13 +6633,13 @@ to the body.":
 	"Renders the Events and News dashboard widget.":
 		"prefix":"wp_dashboard_events_news"
 		"body":"wp_dashboard_events_news()"
-	"Deprecated dashboard widget controls.":
+	"Deprecated dashboard widget controls. wp_dashboard_incoming_links":
 		"prefix":"wp_dashboard_incoming_links"
 		"body":"wp_dashboard_incoming_links()"
 	"Deprecated dashboard incoming links control.":
 		"prefix":"wp_dashboard_incoming_links_control"
 		"body":"wp_dashboard_incoming_links_control()"
-	"Deprecated dashboard widget controls.":
+	"Deprecated dashboard widget controls. wp_dashboard_incoming_links_output":
 		"prefix":"wp_dashboard_incoming_links_output"
 		"body":"wp_dashboard_incoming_links_output()"
 	"Deprecated dashboard plugins control.":
@@ -6790,7 +6790,7 @@ to the current point in code.":
 	"Kill WordPress execution and display HTML message with error message.":
 		"prefix":"wp_die"
 		"body":"wp_die( ${1:\\$message = ''}${2:, \\$title = ''}${3:, \\$args = array()} )"
-	"":
+	"wp_doc_link_parse":
 		"prefix":"wp_doc_link_parse"
 		"body":"wp_doc_link_parse( ${1:\\$content} )"
 	"Determines whether the current request is a WordPress Ajax request.":
@@ -6912,13 +6912,13 @@ all media JS APIs.":
 	"Strips all of the HTML in the content.":
 		"prefix":"wp_filter_nohtml_kses"
 		"body":"wp_filter_nohtml_kses( ${1:\\$data} )"
-	"Filters a list of objects, based on a set of key =&gt; value arguments.":
+	"Filters a list of objects, based on a set of key =&gt; value arguments. wp_filter_object_list":
 		"prefix":"wp_filter_object_list"
 		"body":"wp_filter_object_list( ${1:\\$list}${2:, \\$args = array()}${3:, \\$operator = 'and'}${4:, \\$field = false} )"
 	"Filters the given oEmbed HTML.":
 		"prefix":"wp_filter_oembed_result"
 		"body":"wp_filter_oembed_result( ${1:\\$result}${2:, \\$data}${3:, \\$url} )"
-	"Sanitize content for allowed HTML tags for post content.":
+	"Sanitize content for allowed HTML tags for post content. wp_filter_post_kses":
 		"prefix":"wp_filter_post_kses"
 		"body":"wp_filter_post_kses( ${1:\\$data} )"
 	"Filters the oEmbed result before any HTTP requests are made.":
@@ -7131,7 +7131,7 @@ all media JS APIs.":
 	"Returns all revisions of specified post.":
 		"prefix":"wp_get_post_revisions"
 		"body":"wp_get_post_revisions( ${1:\\$post_id}${2:, \\$args = null} )"
-	"Retrieve the tags for a post.":
+	"Retrieve the tags for a post. wp_get_post_tags":
 		"prefix":"wp_get_post_tags"
 		"body":"wp_get_post_tags( ${1:\\$post_id}${2:, \\$args = array()} )"
 	"Retrieve the terms for a post.":
@@ -7215,10 +7215,10 @@ all media JS APIs.":
 	"Handles the submission of a comment, usually posted to wp-comments-post.php via a comment form.":
 		"prefix":"wp_handle_comment_submission"
 		"body":"wp_handle_comment_submission( ${1:\\$comment_data} )"
-	"Wrapper for _wp_handle_upload().":
+	"Wrapper for _wp_handle_upload(). wp_handle_sideload":
 		"prefix":"wp_handle_sideload"
 		"body":"wp_handle_sideload( ${1:\\$file}${2:, \\$overrides = false}${3:, \\$time = null} )"
-	"Wrapper for _wp_handle_upload().":
+	"Wrapper for _wp_handle_upload(). wp_handle_upload":
 		"prefix":"wp_handle_upload"
 		"body":"wp_handle_upload( ${1:\\$file}${2:, \\$overrides = false}${3:, \\$time = null} )"
 	"Get hash of given string.":
@@ -7386,16 +7386,16 @@ all media JS APIs.":
 	"Performs different checks for attribute values.":
 		"prefix":"wp_kses_check_attr_val"
 		"body":"wp_kses_check_attr_val( ${1:\\$value}${2:, \\$vless}${3:, \\$checkname}${4:, \\$checkvalue} )"
-	"Sanitize content with allowed HTML Kses rules.":
+	"Sanitize content with allowed HTML Kses rules. wp_kses_datare":
 		"prefix":"wp_kses_data"
 		"body":"wp_kses_data( ${1:\\$data} )"
 	"Convert all entities to their character counterparts.":
 		"prefix":"wp_kses_decode_entities"
 		"body":"wp_kses_decode_entities( ${1:\\$string} )"
-	"Builds an attribute list from string containing attributes.":
+	"Builds an attribute list from string containing attributes. wp_kses_hair":
 		"prefix":"wp_kses_hair"
 		"body":"wp_kses_hair( ${1:\\$attr}${2:, \\$allowed_protocols} )"
-	"Builds an attribute list from string containing attributes.":
+	"Builds an attribute list from string containing attributes. wp_kses_hair_parse":
 		"prefix":"wp_kses_hair_parse"
 		"body":"wp_kses_hair_parse( ${1:\\$attr} )"
 	"You add any kses hooks here.":
@@ -7407,7 +7407,7 @@ all media JS APIs.":
 	"Removes the HTML JavaScript entities found in early versions of Netscape 4.":
 		"prefix":"wp_kses_js_entities"
 		"body":"wp_kses_js_entities( ${1:\\$string} )"
-	"Callback for wp_kses_normalize_entities() regular expression.":
+	"Callback for wp_kses_normalize_entities() regular expression. wp_kses_named_entitiesre":
 		"prefix":"wp_kses_named_entities"
 		"body":"wp_kses_named_entities( ${1:\\$matches} )"
 	"Removes any invalid control characters in $string.":
@@ -7416,7 +7416,7 @@ all media JS APIs.":
 	"Converts and fixes HTML entities.":
 		"prefix":"wp_kses_normalize_entities"
 		"body":"wp_kses_normalize_entities( ${1:\\$string} )"
-	"Callback for wp_kses_normalize_entities() regular expression.":
+	"Callback for wp_kses_normalize_entities() regular expression. wp_kses_normalize_entities2":
 		"prefix":"wp_kses_normalize_entities2"
 		"body":"wp_kses_normalize_entities2( ${1:\\$matches} )"
 	"Callback for wp_kses_normalize_entities() for regular expression.":
@@ -7425,7 +7425,7 @@ all media JS APIs.":
 	"Filters one attribute only and ensures its value is allowed.":
 		"prefix":"wp_kses_one_attr"
 		"body":"wp_kses_one_attr( ${1:\\$string}${2:, \\$element} )"
-	"Sanitize content for allowed HTML tags for post content.":
+	"Sanitize content for allowed HTML tags for post content. wp_kses_post":
 		"prefix":"wp_kses_post"
 		"body":"wp_kses_post( ${1:\\$data} )"
 	"Navigates through an array, object, or scalar, and sanitizes content for
@@ -7462,13 +7462,13 @@ allowed HTML tags for post content.":
 	"Display or retrieve the HTML list of categories.":
 		"prefix":"wp_list_categories"
 		"body":"wp_list_categories( ${1:\\$args = ''} )"
-	"Lists categories.":
+	"Lists categories. wp_list_cats":
 		"prefix":"wp_list_cats"
 		"body":"wp_list_cats( ${1:\\$args = ''} )"
 	"List comments.":
 		"prefix":"wp_list_comments"
 		"body":"wp_list_comments( ${1:\\$args = array()}${2:, \\$comments = null} )"
-	"Filters a list of objects, based on a set of key =&gt; value arguments.":
+	"Filters a list of objects, based on a set of key =&gt; value arguments. wp_list_filter":
 		"prefix":"wp_list_filter"
 		"body":"wp_list_filter( ${1:\\$list}${2:, \\$args = array()}${3:, \\$operator = 'AND'} )"
 	"Retrieve or display list of pages (or hierarchical post type items) in list (li) format.":
@@ -7522,7 +7522,7 @@ allowed HTML tags for post content.":
 	"Retrieves the login URL.":
 		"prefix":"wp_login_url"
 		"body":"wp_login_url( ${1:\\$redirect = ''}${2:, \\$force_reauth = false} )"
-	"":
+	"wp_login_viewport_meta":
 		"prefix":"wp_login_viewport_meta"
 		"body":"wp_login_viewport_meta()"
 	"Display the Log In/Out link.":
@@ -7624,7 +7624,7 @@ allowed HTML tags for post content.":
 	"Returns the columns for the nav menus page.":
 		"prefix":"wp_nav_menu_manage_columns"
 		"body":"wp_nav_menu_manage_columns()"
-	"":
+	"wp_nav_menu_max_depth":
 		"prefix":"wp_nav_menu_max_depth"
 		"body":"wp_nav_menu_max_depth( ${1:\\$classes} )"
 	"Creates meta boxes for any post type menu item..":
@@ -7639,7 +7639,7 @@ allowed HTML tags for post content.":
 	"Saves nav menu items":
 		"prefix":"wp_nav_menu_update_menu_items"
 		"body":"wp_nav_menu_update_menu_items( ${1:\\$nav_menu_selected_id}${2:, \\$nav_menu_selected_title} )"
-	"":
+	"wp_network_dashboard_right_now":
 		"prefix":"wp_network_dashboard_right_now"
 		"body":"wp_network_dashboard_right_now()"
 	"Notifies the site admin that the setup is complete.":
@@ -7757,7 +7757,7 @@ values across PHP versions.":
 	"Displays update information for a plugin.":
 		"prefix":"wp_plugin_update_row"
 		"body":"wp_plugin_update_row( ${1:\\$file}${2:, \\$plugin_data} )"
-	"":
+	"wp_plugin_update_rows":
 		"prefix":"wp_plugin_update_rows"
 		"body":"wp_plugin_update_rows()"
 	"Prints default Plupload arguments.":
@@ -7772,10 +7772,10 @@ values across PHP versions.":
 	"Outputs a small JS snippet on preview tabs/windows to remove `window.name` on unload.":
 		"prefix":"wp_post_preview_js"
 		"body":"wp_post_preview_js()"
-	"Retrieve formatted date timestamp of a revision (linked to that revisions's page).":
+	"Retrieve formatted date timestamp of a revision (linked to that revisions's page). wp_post_revision_title":
 		"prefix":"wp_post_revision_title"
 		"body":"wp_post_revision_title( ${1:\\$revision}${2:, \\$link = true} )"
-	"Retrieve formatted date timestamp of a revision (linked to that revisions's page).":
+	"Retrieve formatted date timestamp of a revision (linked to that revisions's page). wp_post_revision_title_expanded":
 		"prefix":"wp_post_revision_title_expanded"
 		"body":"wp_post_revision_title_expanded( ${1:\\$revision}${2:, \\$link = true} )"
 	"Convert lone less than signs.":
@@ -7896,7 +7896,7 @@ to be JSON-encoded and fit into an Attachment model.":
 	"Register a CSS stylesheet.":
 		"prefix":"wp_register_style"
 		"body":"wp_register_style( ${1:\\$handle}${2:, \\$src}${3:, \\$deps = array()}${4:, \\$ver = false}${5:, \\$media = 'all'} )"
-	"Registers widget control callback for customizing options.":
+	"Registers widget control callback for customizing options. wp_register_widget_control":
 		"prefix":"wp_register_widget_control"
 		"body":"wp_register_widget_control( ${1:\\$id}${2:, \\$name}${3:, \\$control_callback}${4:, \\$options = array()} )"
 	"Returns the URL that allows the user to register on the site.":
@@ -8084,7 +8084,7 @@ to recall previous comments by this commentator that are still held in moderatio
 	"Sets the status of a comment.":
 		"prefix":"wp_set_comment_status"
 		"body":"wp_set_comment_status( ${1:\\$comment_id}${2:, \\$comment_status}${3:, \\$wp_error = false} )"
-	"Changes the current user by ID or name.":
+	"Changes the current user by ID or name. wp_set_current_user":
 		"prefix":"wp_set_current_user"
 		"body":"wp_set_current_user( ${1:\\$id}${2:, \\$name = ''} )"
 	"Set internal encoding.":
@@ -8130,7 +8130,7 @@ table columns.":
 	"Decorates a menu item object with the shared navigation menu item properties.":
 		"prefix":"wp_setup_nav_menu_item"
 		"body":"wp_setup_nav_menu_item( ${1:\\$menu_item} )"
-	"":
+	"wp_shake_js":
 		"prefix":"wp_shake_js"
 		"body":"wp_shake_js()"
 	"Sends a Link: rel=shortlink header if a shortlink is defined for the current page.":
@@ -8178,7 +8178,7 @@ table columns.":
 	"Localize list items before the rest of the content.":
 		"prefix":"wp_sprintf_l"
 		"body":"wp_sprintf_l( ${1:\\$pattern}${2:, \\$args} )"
-	"Defines cookie related WordPress constants":
+	"Defines cookie related WordPress constants wp_ssl_constants":
 		"prefix":"wp_ssl_constants"
 		"body":"wp_ssl_constants()"
 	"Output a HTML element with a star rating for a given rating.":
@@ -8238,7 +8238,7 @@ table columns.":
 	"Displays update information for a theme.":
 		"prefix":"wp_theme_update_row"
 		"body":"wp_theme_update_row( ${1:\\$theme_key}${2:, \\$theme} )"
-	"":
+	"wp_theme_update_rows":
 		"prefix":"wp_theme_update_rows"
 		"body":"wp_theme_update_rows()"
 	"Whether a comment should be blocked because of comment flood.":
@@ -8454,7 +8454,7 @@ touching global.":
 	"Process RSS feed widget data and optionally retrieve feed items.":
 		"prefix":"wp_widget_rss_process"
 		"body":"wp_widget_rss_process( ${1:\\$widget_rss}${2:, \\$check_feed = true} )"
-	"":
+	"wp_widgets_access_body_class":
 		"prefix":"wp_widgets_access_body_class"
 		"body":"wp_widgets_access_body_class( ${1:\\$classes} )"
 	"Append the Widgets menu to the themes main menu.":
@@ -8511,7 +8511,7 @@ touching global.":
 	"Record site signup information for future activation.":
 		"prefix":"wpmu_signup_blog"
 		"body":"wpmu_signup_blog( ${1:\\$domain}${2:, \\$path}${3:, \\$title}${4:, \\$user}${5:, \\$user_email}${6:, \\$meta = array()} )"
-	"Notify user of signup success.":
+	"Notify user of signup success. wpmu_signup_blog_notification":
 		"prefix":"wpmu_signup_blog_notification"
 		"body":"wpmu_signup_blog_notification( ${1:\\$domain}${2:, \\$path}${3:, \\$title}${4:, \\$user_login}${5:, \\$user_email}${6:, \\$key}${7:, \\$meta = array()} )"
 	"Prints styles for front-end Multisite signup pages":
@@ -8520,7 +8520,7 @@ touching global.":
 	"Record user signup information for future activation.":
 		"prefix":"wpmu_signup_user"
 		"body":"wpmu_signup_user( ${1:\\$user}${2:, \\$user_email}${3:, \\$meta = array()} )"
-	"Notify user of signup success.":
+	"Notify user of signup success. wpmu_signup_user_notificationre":
 		"prefix":"wpmu_signup_user_notification"
 		"body":"wpmu_signup_user_notification( ${1:\\$user_login}${2:, \\$user_email}${3:, \\$key}${4:, \\$meta = array()} )"
 	"Update the last_updated field for the current site.":

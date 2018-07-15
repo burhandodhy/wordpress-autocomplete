@@ -32,9 +32,12 @@ Alternatively, install through command-line:
 
 	apm install wordpress-autocomplete
 
-  > Feel Free to **Star** and **Fork** it. 
+  > Feel Free to **Star** and **Fork** it.
 
 ### Changelogs
+- Version 1.3:
+  * Fix Duplicate key
+
 - Version 1.2:
   * Support upto WordPress 4.8
   * Fix extra space issue

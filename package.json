@@ -1,20 +1,67 @@
 {
-  "name": "wordpress-autocomplete",
-  "main": "./lib/wordpress-autocomplete",
-  "version": "1.2.0",
+  "_args": [
+    [
+      {
+        "raw": "C:\\Users\\BuRhan\\AppData\\Local\\Temp\\d-1171025-3124-e8hiqi.rvglzkhuxr\\package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "C:\\Users\\BuRhan\\AppData\\Local\\Temp\\d-1171025-3124-e8hiqi.rvglzkhuxr\\package.tgz",
+        "spec": "C:\\Users\\BuRhan\\AppData\\Local\\Temp\\d-1171025-3124-e8hiqi.rvglzkhuxr\\package.tgz",
+        "type": "local"
+      },
+      "C:\\Users\\BuRhan\\AppData\\Local\\Temp\\apm-install-dir-1171025-3124-149oe61.3qakathuxr"
+    ]
+  ],
+  "_from": "..\\d-1171025-3124-e8hiqi.rvglzkhuxr\\package.tgz",
+  "_id": "wordpress-autocomplete@1.2.0",
+  "_inCache": true,
+  "_location": "/wordpress-autocomplete",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "C:\\Users\\BuRhan\\AppData\\Local\\Temp\\d-1171025-3124-e8hiqi.rvglzkhuxr\\package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "C:\\Users\\BuRhan\\AppData\\Local\\Temp\\d-1171025-3124-e8hiqi.rvglzkhuxr\\package.tgz",
+    "spec": "C:\\Users\\BuRhan\\AppData\\Local\\Temp\\d-1171025-3124-e8hiqi.rvglzkhuxr\\package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:..\\d-1171025-3124-e8hiqi.rvglzkhuxr\\package.tgz",
+  "_shasum": "e3ee1b2d00c896150c7216acf723f760df089a5f",
+  "_shrinkwrap": null,
+  "_spec": "C:\\Users\\BuRhan\\AppData\\Local\\Temp\\d-1171025-3124-e8hiqi.rvglzkhuxr\\package.tgz",
+  "_where": "C:\\Users\\BuRhan\\AppData\\Local\\Temp\\apm-install-dir-1171025-3124-149oe61.3qakathuxr",
+  "activationCommands": {
+    "atom-workspace": "wordpress-autocomplete:toggle"
+  },
+  "bugs": {
+    "url": "https://github.com/burhandodhy/wordpress-autocomplete/issues"
+  },
+  "dependencies": {},
   "description": "Autocomplete support for WordPress functions.",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/burhandodhy/wordpress-autocomplete#readme",
   "keywords": [
     "php",
     "wordpress",
     "autocomplete"
   ],
-  "activationCommands": {
-    "atom-workspace": "wordpress-autocomplete:toggle"
-  },
-  "repository": "https://github.com/burhandodhy/wordpress-autocomplete",
   "license": "MIT",
-  "engines": {
-    "atom": ">=1.0.0 <2.0.0"
+  "main": "./lib/wordpress-autocomplete",
+  "name": "wordpress-autocomplete",
+  "optionalDependencies": {},
+  "readme": "# WordPress AutoComplete\n==================\n\n##### Gif Preview\n![wordpress-autocomplete](http://i.imgur.com/HFtXHwz.gif)\n\n\n##### Image Preview\n![wordpress-autocomplete](http://i.imgur.com/fa1SyA1.jpg)\n\n\nAutocomplete support for WordPress functions.\n\n- License: GNU/GPL\n- Version: 1.2\n- Extension URI: https://github.com/burhandodhy/wordpress-autocomplete\n\n### Features\n\nAutocomplete for:\n\n    WordPress version : 4.8\n\n    Functions  : 2838\n\n\n### Installation\n------------\nOpen **Settings** → **Install** and search for `wordpress-autocomplete`.\n\nAlternatively, install through command-line:\n\n\tapm install wordpress-autocomplete\n\n  > Feel Free to **Star** and **Fork** it. \n\n### Changelogs\n- Version 1.2:\n  * Support upto WordPress 4.8\n  * Fix extra space issue\n\n\n- Version 1.1.3: Meta Update\n\n- Version 1.1: Initial Start (Support all WordPress 4.7.3 function).\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burhandodhy/wordpress-autocomplete.git"
   },
-  "dependencies": {}
+  "version": "1.2.0"
 }

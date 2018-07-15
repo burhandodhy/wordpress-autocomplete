@@ -1,3 +1,6 @@
+## 1.3
+  * Fix Duplicate key
+
 ## 1.2
 * Support upto WordPress 4.8
 * Fix extra space issue
