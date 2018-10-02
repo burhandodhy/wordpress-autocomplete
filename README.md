@@ -1,7 +1,7 @@
 # WordPress AutoComplete
 ==================
 
-This is a easy to use Autocomplete package for Atom. It contains all the wordpress functions with descriptions. 
+This is a easy to use Autocomplete package for Atom. It contains all the WordPress functions with descriptions. 
 
 ##### Gif Preview
 ![wordpress-autocomplete](http://i.imgur.com/HFtXHwz.gif)
