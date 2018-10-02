@@ -1,6 +1,8 @@
 # WordPress AutoComplete
 ==================
 
+This is a easy to use Autocomplete package for Atom. It contains all the wordpress functions with descriptions. 
+
 ##### Gif Preview
 ![wordpress-autocomplete](http://i.imgur.com/HFtXHwz.gif)
 
@@ -9,19 +11,22 @@
 ![wordpress-autocomplete](http://i.imgur.com/fa1SyA1.jpg)
 
 
-Autocomplete support for WordPress functions.
-
-- License: GNU/GPL
-- Version: 1.2
-- Extension URI: https://github.com/burhandodhy/wordpress-autocomplete
-
 ### Features
 
-Autocomplete for:
+Autocomplete support for WordPress functions.
 
-    WordPress version : 4.8
+### Info
 
-    Functions  : 2838
+
+    Supported WordPress version : 4.8
+
+    Number of Functions  : 2838
+
+    License: GNU/GPL
+    
+    Version: 1.2
+    
+    Extension URI: https://github.com/burhandodhy/wordpress-autocomplete
 
 
 ### Installation
